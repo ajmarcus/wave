@@ -1,0 +1,39 @@
+body {
+  display: grid;
+}
+.purple {
+  background-color: rgb(188, 65, 234);
+}
+.pink {
+  background-color: rgb(234, 65, 217);
+}
+.orange {
+  background-color: rgb(234, 160, 65);
+}
+
+nav ol {
+  display: flex;
+  margin-bottom: 0rem;
+}
+nav li {
+  list-style-type: none;
+  margin: 1rem;
+}
+#logo {
+  margin-right: auto;
+}
+
+
+.wave {
+  height: 20px;
+  overflow: hidden;
+}
+
+.examples {
+  height: 300px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
