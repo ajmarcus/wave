@@ -1,15 +1,71 @@
-body {
-  display: grid;
+/* elements */
+a {
+  text-decoration: none;
 }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  background-color: rgb(105,186,172);
+  color: rgba(0,0,0,0.5);
+  border: 0.1rem black; 
+  border-radius: 1rem;
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+/* colors */
+
 .purple {
-  background-color: rgb(188, 65, 234);
+  background-color: rgb(78, 31, 78);
+}
+.purple-font {
+  color: rgb(78, 31, 78);
 }
 .pink {
-  background-color: rgb(234, 65, 217);
+  background-color: rgb(211, 161, 173);
+}
+.pink-font {
+  color: rgb(211, 161, 173);
 }
 .orange {
-  background-color: rgb(234, 160, 65);
+  background-color: rgb(234, 165, 149);
 }
+.gold-font {
+  color: rgb(238, 175, 40);
+}
+.white-font {
+  color: rgb(255,255,255);
+}
+
+/* general */
+
+.no-margin {
+  margin: 0rem 0rem;
+  padding: 0.25rem;
+}
+
+.section-header {
+  padding-top: 3rem;
+}
+
+.pad {
+  padding: 2rem 2rem;
+}
+
+.center {
+  text-align: center;
+}
+
+/* header */
 
 nav ol {
   display: flex;
@@ -21,19 +77,49 @@ nav li {
 }
 #logo {
   margin-right: auto;
+  font-size: 2rem;
 }
 
+/* wave */
 
 .wave {
   height: 20px;
   overflow: hidden;
 }
 
-.examples {
-  height: 300px;
+/* fake browser */
+
+.browser {
+  background-color: rgb(225, 225, 225);
+  margin: 0.25rem;
 }
 
-footer {
+.browser-header {
+  padding: .5rem;
+}
+
+.browser-dot {
+  height: .75rem;
+  width: .75rem;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* examples */
+
+.examples {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* tablet */
+
+@media (max-width: 768px) {
+}
+
+/* phone */
+
+@media (max-width: 576px) {
 }
