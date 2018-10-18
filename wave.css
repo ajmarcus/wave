@@ -2,7 +2,9 @@
 a {
   text-decoration: none;
 }
-
+img {
+  max-width: 100%;
+}
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -110,6 +112,7 @@ nav li {
 
 .examples {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding: 2rem;
 }
